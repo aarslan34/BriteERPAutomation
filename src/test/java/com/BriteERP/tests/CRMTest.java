@@ -3,10 +3,15 @@ package com.BriteERP.tests;
 import com.BriteERP.pages.CRMPage;
 import com.BriteERP.pages.LoginPage;
 import com.BriteERP.utilities.ConfigurationReader;
+import com.BriteERP.utilities.Driver;
 import com.BriteERP.utilities.SeleniumUtils;
 import com.BriteERP.utilities.TestBase;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import java.util.List;
 
 public class CRMTest extends TestBase {
 
@@ -52,7 +57,15 @@ public class CRMTest extends TestBase {
         String password =ConfigurationReader.getProperty("password");
         loginPage.login(username, password);
         SeleniumUtils.navigateToModule("CRM");
-
+        crmPage.listElement.click();
+        String secondRevenueList = crmPage.secondRevenueList.getText();
+        crmPage.pivotElement.click();
+        SeleniumUtils.doubleClick(crmPage.expandTotalElement);
+        crmPage.selectOpportunity.click();
+        SeleniumUtils.waitPlease(2);
+        System.out.println(crmPage.totalExpectedRevenue.getText().replaceAll("[,]",""));
+        System.out.println(crmPage.sumOfExpectedRevenue());
+        Assert.assertEquals(crmPage.sumOfExpectedRevenue(), Double.parseDouble(crmPage.totalExpectedRevenue.getText().replaceAll("[,]", "")));
 
     }
 
