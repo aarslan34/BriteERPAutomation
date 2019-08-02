@@ -24,22 +24,35 @@ public class CRMTest extends TestBase {
         String username = ConfigurationReader.getProperty("username");
         String password =ConfigurationReader.getProperty("password");
         loginPage.login(username, password);
-        SeleniumUtils.waitPlease(3);
         SeleniumUtils.navigateToModule("CRM");
-        SeleniumUtils.waitPlease(3);
         crmPage.listElement.click();
         String secondRevenueList = crmPage.secondRevenueList.getText();
         System.out.println(secondRevenueList);
         crmPage.pivotElement.click();
-        SeleniumUtils.waitPlease(3);
         SeleniumUtils.doubleClick(crmPage.expandTotalElement);
-        SeleniumUtils.waitPlease(3);
         crmPage.selectOpportunity.click();
-        SeleniumUtils.waitPlease(5);
         String secondRevenuePivot = crmPage.secondRevenuePivot.getText();
-
         System.out.println(secondRevenuePivot);
         Assert.assertEquals(secondRevenueList, secondRevenuePivot);
+
+    }
+
+    /*
+    Acceptance Criteria:
+    2. Verify that on the pivot table,
+    the total expected revenue should be the sumof all opportunities’ expected revenue.
+     */
+
+    @Test
+    public void CRMTest2(){
+
+        LoginPage loginPage = new LoginPage();
+        CRMPage crmPage = new CRMPage();
+        String username = ConfigurationReader.getProperty("username");
+        String password =ConfigurationReader.getProperty("password");
+        loginPage.login(username, password);
+        SeleniumUtils.navigateToModule("CRM");
+
 
     }
 

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9382494d-8cd4-4f5c-bfaa-8b8d281b879f" name="Default Changelist" comment="" />
+    <list default="true" id="9382494d-8cd4-4f5c-bfaa-8b8d281b879f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/BriteERP/tests/CRMTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BriteERP/tests/CRMTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/BriteERP/tests/CRMTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/BriteERP/tests/CRMTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/tests/CRMTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="41" column="67" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
+            <state relative-caret-position="393">
+              <caret line="42" column="4" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,6 +113,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -131,11 +139,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="145" />
-    <option name="y" value="23" />
-    <option name="width" value="877" />
-    <option name="height" value="713" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -221,6 +228,9 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -233,7 +243,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CRMTest.CRM">
+  <component name="RunManager" selected="TestNG.CRMTest.CRMTest1">
     <configuration name="CRMTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BriteERPautomation" />
       <extension name="coverage">
@@ -269,6 +279,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CRMTest.CRMTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BriteERPautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.BriteERP.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.BriteERP.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.BriteERP.tests.CRMTest" />
+      <option name="METHOD_NAME" value="CRMTest1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CRMTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BriteERPautomation" />
       <extension name="coverage">
@@ -289,6 +317,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CRMTest.CRMTest1" />
         <item itemvalue="TestNG.CRMTest.CRM" />
         <item itemvalue="TestNG.CRMTest.loginTest" />
         <item itemvalue="TestNG.CRMTest" />
@@ -309,24 +338,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CRMTest_CRM - 2019.08.02 at 01h 03m 24s.xml">
-      <configuration name="CRMTest.CRM" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CRMTest_CRM - 2019.08.02 at 01h 04m 44s.xml">
-      <configuration name="CRMTest.CRM" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CRMTest_CRM - 2019.08.02 at 01h 09m 04s.xml">
-      <configuration name="CRMTest.CRM" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CRMTest_CRM - 2019.08.02 at 01h 10m 04s.xml">
-      <configuration name="CRMTest.CRM" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CRMTest_CRM - 2019.08.02 at 01h 10m 53s.xml">
-      <configuration name="CRMTest.CRM" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CRMTest_CRM - 2019.08.02 at 01h 13m 03s.xml">
-      <configuration name="CRMTest.CRM" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="CRMTest_CRM - 2019.08.02 at 01h 14m 09s.xml">
       <configuration name="CRMTest.CRM" configurationId="TestNG" />
     </history-entry>
@@ -339,10 +350,27 @@
     <history-entry file="CRMTest_CRM - 2019.08.02 at 01h 24m 43s.xml">
       <configuration name="CRMTest.CRM" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="CRMTest_CRMTest1 - 2019.08.02 at 15h 16m 53s.xml">
+      <configuration name="CRMTest.CRMTest1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CRMTest_CRMTest1 - 2019.08.02 at 15h 17m 31s.xml">
+      <configuration name="CRMTest.CRMTest1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CRMTest_CRMTest1 - 2019.08.02 at 15h 18m 09s.xml">
+      <configuration name="CRMTest.CRMTest1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CRMTest_CRMTest1 - 2019.08.02 at 15h 18m 42s.xml">
+      <configuration name="CRMTest.CRMTest1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CRMTest_CRMTest1 - 2019.08.02 at 15h 19m 11s.xml">
+      <configuration name="CRMTest.CRMTest1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CRMTest_CRMTest1 - 2019.08.02 at 15h 19m 47s.xml">
+      <configuration name="CRMTest.CRMTest1" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -352,12 +380,12 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16801292" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -457,8 +485,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/tests/CRMTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="41" column="67" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
+        <state relative-caret-position="393">
+          <caret line="42" column="4" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
