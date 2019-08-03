@@ -62,7 +62,8 @@ public class CRMTest extends TestBase {
         crmPage.pivotElement.click();
         SeleniumUtils.doubleClick(crmPage.expandTotalElement);
         crmPage.selectOpportunity.click();
-        SeleniumUtils.waitPlease(2);
+        //SeleniumUtils.waitPlease(2);
+        SeleniumUtils.waitForVisibility(By.cssSelector("td[class='o_pivot_cell_value text-right']"), 3);
         System.out.println(crmPage.totalExpectedRevenue.getText().replaceAll("[,]",""));
         System.out.println(crmPage.sumOfExpectedRevenue());
         Assert.assertEquals(crmPage.sumOfExpectedRevenue(), Double.parseDouble(crmPage.totalExpectedRevenue.getText().replaceAll("[,]", "")));
